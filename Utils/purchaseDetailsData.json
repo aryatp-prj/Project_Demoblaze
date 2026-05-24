@@ -1,0 +1,22 @@
+[
+    {
+        "category":  "Phones",
+        "product":   "Nokia lumia 1520",
+        "firstName": "Arya tp",
+        "country":   "india",
+        "city":      "kannur",
+        "card":      "234109000009",
+        "month":     "09",
+        "year":      "2026"
+    },
+    {
+        "category":  "Monitors",
+        "product":   "Apple monitor 24",
+        "firstName": "Arya tp",
+        "country":   "india",
+        "city":      "kannur",
+        "card":      "234109000009",
+        "month":     "09",
+        "year":      "2026"
+    }
+]
