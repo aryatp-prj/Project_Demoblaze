@@ -4,7 +4,7 @@ class Logout{
         this.logout = page.getByRole('link',{name:'Log out'})        
     }
     async logOut(){
-        this.logout.click();
+        await this.logout.click();
     }
 }
 module.exports=Logout;

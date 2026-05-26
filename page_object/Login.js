@@ -19,7 +19,7 @@ class Login{
     }
     async invalidLogin(){
         const dialogmessage = this.page.waitForEvent('dialog',{timeout:5000});
-        this.loginbtn.click();
+        await this.loginbtn.click();
         const dialog = await dialogmessage;
         const message = dialog.message();
         await dialog.accept();
