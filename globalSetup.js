@@ -16,8 +16,8 @@ module.exports = async (config) => {
 
     // Generate unique username for EACH user
     const generatedUsers = userData.map(user => ({
-    baseUsername: user.baseUsername,           // ✅ preserve it
-    username: user.baseUsername + Date.now(),  // ✅ generate from base
+    baseUsername: user.baseUsername,           // preserve it
+    username: user.baseUsername + Date.now(),  // generate from base
     password: user.password
 }));
 
